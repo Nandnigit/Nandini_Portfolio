@@ -190,7 +190,7 @@ function App() {
                   
                   <img src={html} height='80' width='80'></img>
                 </div>
-                {/* <i className="fa-brands fa-html5  "></i> */}
+                
                 </div>
               <div className="mt-4">
                 <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200">
@@ -265,35 +265,35 @@ function App() {
             <div className="mt-2 flex flex-col md:flex-row gap-2 ">
               <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
                 <img src={Certificate_CSA} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
+                <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                   Certified System Administrator (CSA) from ServiceNow.
-                </spam>
+                </p>
                 
               </div>
 
               <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
               <img src={Certificate_CAD} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
+                <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Certified Application Developer (CAD) from ServiceNow.
-                </spam>
+                </p>
                
               </div>
               </div>
               <div className="mt-12 flex flex-col md:flex-row gap-2">
               <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
               <img src={Certificate_C} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
+                <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Programming Using C++ from Infosys Springboard.
-                </spam>
+                </p>
                 
               </div>
 
 
               <div  className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl">
               <img src={Certificate_AMCAT} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
+                <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Certificate of AMCAT.
-                </spam>
+                </p>
                 
               </div>
             </div>
