@@ -1,21 +1,22 @@
 import "./App.css";
 import Porfile from "./assets/Photo.jpg";
 import Project1 from "./assets/Screenshot2.png";
-import Project2 from "./assets/1.png";
+import Project2 from "./assets/img3.png";
 import Project3 from "./assets/Screenshot4.png";
-import Project4 from "./assets/2.png";
+import Project4 from "./assets/img2.png";
+import Project5 from "./assets/img5.png";
 import ArrowDown from "./assets/arrow-down.svg";
 import resume from './assets/Nandini Gupta.pdf'
 import Certificate_CSA from './assets/Nandini_CSA.jpg';
 import Certificate_CAD from './assets/Nandini_CAD.jpg';
 import Certificate_C from './assets/Nandini_C++.jpg';
 import Certificate_AMCAT from './assets/Nandini_AMCAT.jpg';
-import html from './assets/html_logo.jpg';
+import html from './assets/html_logo.png';
 import css from './assets/css-logo.png';
-import Bootstrap from './assets/bootstrap.png';
-import Tailwind from './assets/tailwind-css.png';
+import Bootstrap from './assets/bootstrap_logo.svg';
+import Tailwind from './assets/tailwind-css.webp';
 import reactlogo from './assets/react.png';
-import gitlogo from './assets/git.png';
+import gitlogo from './assets/github.webp';
 import servicenow from './assets/ServiceNow.png';
 import salesforce from './assets/salesforce.webp';
 
@@ -88,6 +89,9 @@ function App() {
               <div>
                 <h2 className="font-bold text-4xl mt-1 gradiant-text">frontend developer</h2>
               </div>
+              <div className='home_content'>
+            
+            </div>
               <div>
                 <p className="mt-4 text-gray-400">
                   A self-assured, goal-oriented individual who is enthusiastic about invention and the application of fresh concepts. 
@@ -110,75 +114,68 @@ function App() {
         <section id="projects">
           <div className="container m-auto px-4 sm:py-12">
             <h2 className="text-2xl font-semibold">Projects</h2>
-            <div className="flex flex-col sm:flex-row gap-10 mt-11">
-              <div className="border border-gray-500 rounded-xl p-5 flex-1">
-                <img src={Project4} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">
-                  Portfolio For Interior Designer
+
+            <div className="flex flex-col sm:flex-row gap-10 mt-11" >
+            <div className="border border-gray-800 rounded-xl p-5 flex-1 hover:bg-slate-700 hover:text-slate-100 hover:text-lg" id='project_row1_first'>
+                <img src={Project5} className="w-full h-auto" />
+                <h3 className="text-2xl font-semibold m-4 ">
+                  E-learning Website Design
                 </h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Responsive layout (HTML, Bootstrap, React)
+                <p className=" font-serif text-slate-300 mb-2 ">
+                E-learning websites provide online educational resources and courses, allowing learners to access information, tutorials, and training from anywhere with an internet connection. These platforms offer a wide range of subjects, from academic topics like math, science, and literature to practical skills such as coding, graphic design, and language learning. 
                 </p>
-                <div className=" mt-20">
-                  
-                  <button className="text-lg p-3 border rounded-xl hover:text-black hover:bg-slate-400">
-                    <a href='https://github.com/Nandnigit/Tanisha_Portfolio' target='_blank'>Checkout github</a>
-                    
-                  </button>
+                <div className=" flex gap-3 mt-2 ">
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">HTML/CSS</div>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Tailwind</div>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">React</div>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-xl p-5 flex-1">
+              <div className="border border-gray-800 rounded-xl p-5 flex-1 hover:bg-slate-700 hover:text-slate-100 hover:text-lg" id='project_row1_second'>
+                <img src={Project4} className="w-full h-auto" />
+                <h3 className="text-2xl font-semibold m-4 ">
+                  Portfolio For Interior Designer
+                </h3>
+                <p className=" font-serif text-slate-300 mb-2 ">A portfolio is a collection of work samples, projects, or achievements that showcase an individual's skills, experience, and accomplishments. Portfolios are commonly used by professionals in various fields, including artists, designers, writers, photographers, programmers, and marketers, among others. </p>
+                <div className=" flex gap-3 mt-2 ">
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">HTML/CSS</div>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Bootstrap</div>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">React</div>
+                </div>
+
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-10 mt-11">
+            <div className="border border-gray-800 rounded-xl p-5 flex-1 hover:bg-slate-700 hover:text-slate-100 hover:text-lg" id='project_row2_first'>
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
                   GrowthX Frontend UI Clone
                 </h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS React layout for GrowthX UI clone. (HTML5, CSS, React) 
+                <p className=" font-serif text-slate-300 mb-2 ">
+                A frontend clone, in the context of web development, refers to the process of recreating the user interface (UI) and user experience (UX) of an existing website or application. This involves replicating the visual design, layout, functionality, and interactions of the original frontend using HTML, CSS, and JavaScript.
                 </p>
-                <div className=" mt-16">
+                <div className=" flex gap-3 mt-2 ">
+                  <div className=" border-2 px-2 py-1 shadow-lg shadow-slate-600 rounded-md">HTML/CSS</div>
                   
-                  <button className="text-lg p-3 border rounded-xl  hover:text-black hover:bg-slate-400">
-                    <a href='https://github.com/Nandnigit/Landing-page' target='_blank'> Checkout github</a>
-                    
-                  </button>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">React</div>
                 </div>
               </div>
-            </div>
-            <div className="flex flex-col sm:flex-row  gap-10 mt-11">
-              <div className="border border-gray-500 rounded-xl p-5 flex-1">
+              <div className="border border-gray-500 rounded-xl p-5 flex-1 hover:bg-slate-700 hover:text-slate-100 hover:text-lg" id='project_row2_second'>
                 <img src={Project3} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  UI Design for Amrutam Pharmaceuticals 
+                  UI Design  
                 </h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Responsive layout (HTML, Tailwind, React)
+                <p className=" font-serif text-slate-300 mb-2 ">
+                A frontend clone, in the context of web development, refers to the process of recreating the user interface (UI) and user experience (UX) of an existing website or application. This involves replicating the visual design, layout, functionality, and interactions of the original frontend using HTML, CSS, and JavaScript.
                 </p>
-                <div className=" mt-12">
-                  
-                  <button className="text-lg p-3 border rounded-xl hover:text-black hover:bg-slate-400">
-                    <a href='https://github.com/Nandnigit/Assignment_Amrutam_Pharmaceuticals' target='_blank'> Checkout github</a>
-                    
-                  </button>
+                <div className=" flex gap-3 mt-2 ">
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">HTML/CSS</div>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Tailwind</div>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">React</div>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-xl p-5 flex-1">
-                <img src={Project1} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">
-                  SetUp page UI 
-                </h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Responsive layout (HTML,Tailwind, React).
-                </p>
-                <div className=" mt-20 ">
-                  
-                  <button className="text-lg p-3 border rounded-xl hover:text-black hover:bg-slate-400">
-                    <a href='https://github.com/Nandnigit/setup-page' target='_blank' >
-                    Checkout github
-                    </a>  
-                  </button>
-                </div>
-               </div>
             </div>
+            
           </div>
         </section>
 
@@ -186,39 +183,41 @@ function App() {
         <section className="py-10" id="technologies">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">My Expertise</h2>
-            <div className="mt-14 flex flex-col justify-center gap-4">
-              <div className=" flex flex-col md:flex-row gap-5 ">
-              <div className="mt-4">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200 ">
-                  {/* <h2 className="font-semibold">HTML</h2> */}
-                  <img src={html} height='100' width='100'></img>
+            <div className="mt-1 flex flex-col justify-center gap-4">
+              <div className=" flex flex-wrap md:flex-row gap-5 ">
+              <div className="mt-4 ">
+                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
+                  
+                  <img src={html} height='80' width='80'></img>
                 </div>
+                {/* <i className="fa-brands fa-html5  "></i> */}
                 </div>
               <div className="mt-4">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
-                  {/* <h2 className="font-semibold">CSS</h2> */}
-                  <img src={css} height='40' width='60'></img>
+                <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200">
+                 
+                  
+                  <img src={css} height='57' width='57'></img>
                 </div>
               </div>
                
               <div className="mt-4">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
+                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200">
                   {/* <h2 className="font-semibold">Bootstrap</h2> */}
-                  <img src={Bootstrap} height='50' width='85'></img>
+                  <img src={Bootstrap} height='100' width='100'></img>
                 </div>
               </div>
 
               <div className="mt-4">
                 <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
                   {/* <h2 className="font-semibold">Tailwind</h2> */}
-                  <img src={Tailwind} height='200' width='150'></img>
+                  <img src={Tailwind} height='100' width='100'></img>
                 </div>
               </div>
 
               <div className="mt-4">
                 <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
                   {/* <h2 className="font-semibold">React</h2> */}
-                  <img src={reactlogo} height='70' width='80'></img>
+                  <img src={reactlogo} height='75' width='75'></img>
                 </div>
               </div>
 
@@ -236,10 +235,10 @@ function App() {
               Additional skills
             </h2>
             <div className=" flex flex-col gap-4">
-            <div className="flex flex-col md:flex-row ml-4 gap-4  mt-4 ">
+            <div className="flex flex-wrap md:flex-row ml-4 gap-4  mt-4 ">
               <div>
-                <p className="font-bold flex justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200 ">
-                <img src={gitlogo} height='90' width='100'></img>
+                <p className="font-bold flex justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
+                <img src={gitlogo} height='60' width='60'></img>
                 </p>
               </div>
               <div>
@@ -255,24 +254,6 @@ function App() {
               
               
             </div>
-            {/* <div className="flex flex-col md:flex-row  gap-3  mt-4  ">
-              <div>
-                <p className="font-bold before:w-4  relative md:left-5 border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200">
-                  Leadership
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4  relative md:left-5 border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200">
-                  Management
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4  relative md:left-5 border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200">
-                  Teamwork
-                </p>
-              </div>
-              
-            </div> */}
             </div>
           </div>
         </section>
@@ -281,36 +262,36 @@ function App() {
         <section className="py-8" id="aboutme">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Certificates</h2>
-            <div className="mt-12 flex flex-col md:flex-row gap-2 ">
-              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400" >
+            <div className="mt-2 flex flex-col md:flex-row gap-2 ">
+              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
                 <img src={Certificate_CSA} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg ">
+                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
                   Certified System Administrator (CSA) from ServiceNow.
                 </spam>
                 
               </div>
 
-              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400" >
+              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
               <img src={Certificate_CAD} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg ">
+                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Certified Application Developer (CAD) from ServiceNow.
                 </spam>
                
               </div>
               </div>
               <div className="mt-12 flex flex-col md:flex-row gap-2">
-              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400" >
+              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
               <img src={Certificate_C} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg ">
+                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Programming Using C++ from Infosys Springboard.
                 </spam>
                 
               </div>
 
 
-              <div  className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400">
+              <div  className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl">
               <img src={Certificate_AMCAT} height='100' width="500"></img>
-                <spam className=" text-stone-500 text-lg ">
+                <spam className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Certificate of AMCAT.
                 </spam>
                 
