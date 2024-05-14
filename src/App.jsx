@@ -125,7 +125,7 @@ function App() {
                 <p className=" font-serif text-slate-300 mb-2 ">
                 E-learning websites provide online educational resources and courses, allowing learners to access information, tutorials, and training from anywhere with an internet connection. These platforms offer a wide range of subjects, from academic topics like math, science, and literature to practical skills such as coding, graphic design, and language learning. 
                 </p>
-                <div className=" flex gap-3 mt-2 ">
+                <div className=" flex flex-wrap gap-3 mt-2 ">
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">HTML/CSS</div>
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Javascript</div>
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Tailwind</div>
