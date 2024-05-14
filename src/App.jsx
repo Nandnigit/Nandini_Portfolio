@@ -16,6 +16,7 @@ import css from './assets/css-logo.png';
 import Bootstrap from './assets/bootstrap.png';
 import Tailwind from './assets/tailwind-css.webp';
 import reactlogo from './assets/react.png';
+import js from './assets/javascript.png';
 import gitlogo from './assets/github.webp';
 import servicenow from './assets/ServiceNow.png';
 import salesforce from './assets/salesforce.webp';
@@ -126,6 +127,7 @@ function App() {
                 </p>
                 <div className=" flex gap-3 mt-2 ">
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">HTML/CSS</div>
+                  <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Javascript</div>
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Tailwind</div>
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">React</div>
                 </div>
@@ -156,7 +158,7 @@ function App() {
                 </p>
                 <div className=" flex gap-3 mt-2 ">
                   <div className=" border-2 px-2 py-1 shadow-lg shadow-slate-600 rounded-md">HTML/CSS</div>
-                  
+                  <div className=" border-2 px-2 py-1 shadow-lg shadow-slate-600 rounded-md">Javascript</div>                 
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">React</div>
                 </div>
               </div>
@@ -221,6 +223,12 @@ function App() {
                 </div>
               </div>
 
+              <div className="mt-4">
+                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
+                  {/* <h2 className="font-semibold">React</h2> */}
+                  <img src={js} height='75' width='75'></img>
+                </div>
+              </div>
               </div>
 
               
