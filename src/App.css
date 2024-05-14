@@ -11,15 +11,14 @@ body {
 
 .gradiant-text {
     -webkit-background-clip: text;
-    @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent;
+    @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent ;
     overflow: hidden;
     border-right: 2px solid #fff;
-    animation: typing-text steps(40) 3s infinite, blink ease 0.3s infinite;
+    animation: typing-text steps(1000) 3s infinite, blink ease 5s infinite;
     text-wrap: nowrap;
-    display: inline-block;
-    width: max-content;
-    width: 0;
+    display: inline-block;  
 }
+
 #profile_photo{
     clip-path: circle(50% at 52% 52% );
     /* clip-path: inset(1% 7% 8% 10% round 5% 5% 5% 5%); */
@@ -31,7 +30,7 @@ body {
         width: 0%;
     } 
     to {
-        width: 350px;
+        width: 400px;
     }
 }
 

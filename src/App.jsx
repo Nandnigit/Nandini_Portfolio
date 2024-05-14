@@ -86,9 +86,9 @@ function App() {
         <section>
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6 text-center sm:text-left">
             <div>
-              <h2 className="font-bold text-4xl">Hello, I'm Nandini,</h2>
+              <h2 className="font-bold text-4xl">Hello, I'm Nandini</h2>
               <div>
-                <h2 className="font-bold text-4xl mt-1 gradiant-text">frontend developer</h2>
+                <h2 className="font-bold text-4xl mt-1 gradiant-text">Frontend Developer</h2>
               </div>
               <div className='home_content'>
             
@@ -188,9 +188,10 @@ function App() {
             <div className="mt-1 flex flex-col justify-center gap-4">
               <div className=" flex flex-wrap md:flex-row gap-5 ">
               <div className="mt-4 ">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
+                <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
                   
                   <img src={html} height='80' width='80'></img>
+                  <h2 className="font-semibold">HTML</h2>
                 </div>
                 
                 </div>
@@ -199,34 +200,39 @@ function App() {
                  
                   
                   <img src={css} height='57' width='57'></img>
+                  <h2 className="font-semibold">CSS</h2>
                 </div>
               </div>
                
               <div className="mt-4">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200">
-                  {/* <h2 className="font-semibold">Bootstrap</h2> */}
+                <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200">
+                  
                   <img src={Bootstrap} height='100' width='100'></img>
+                  <h2 className="font-semibold">Bootstrap</h2>
                 </div>
               </div>
 
               <div className="mt-4">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
-                  {/* <h2 className="font-semibold">Tailwind</h2> */}
+                <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
+                  
                   <img src={Tailwind} height='100' width='100'></img>
+                  <h2 className="font-semibold">Tailwind</h2>
                 </div>
               </div>
 
               <div className="mt-4">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
-                  {/* <h2 className="font-semibold">React</h2> */}
+                <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
+                  
                   <img src={reactlogo} height='75' width='75'></img>
+                  <h2 className="font-semibold">React</h2>
                 </div>
               </div>
 
               <div className="mt-4">
-                <div className="flex justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
+                <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
                   {/* <h2 className="font-semibold">React</h2> */}
                   <img src={js} height='75' width='75'></img>
+                  <h2 className="font-semibold">Javascript</h2>
                 </div>
               </div>
               </div>
@@ -245,18 +251,21 @@ function App() {
             <div className=" flex flex-col gap-4">
             <div className="flex flex-wrap md:flex-row ml-4 gap-4  mt-4 ">
               <div>
-                <p className="font-bold flex justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
+                <p className="font-bold flex flex-col justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
                 <img src={gitlogo} height='60' width='60'></img>
+                <h2 className="font-semibold">GitHub</h2>
                 </p>
               </div>
               <div>
-                <p className="font-bold flex justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200">
+                <p className="font-bold flex flex-col justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200">
                 <img src={servicenow} height='70' width='80'></img>
+                <h2 className="font-semibold">ServiceNow</h2>
                 </p>
               </div>
               <div>
-                <p className="font-bold flex justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
+                <p className="font-bold flex flex-col justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
                 <img src={salesforce} height='70' width='70'></img>
+                <h2 className="font-semibold">Salesforce</h2>
                 </p>
               </div>
               
@@ -271,7 +280,7 @@ function App() {
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Certificates</h2>
             <div className="mt-2 flex flex-col md:flex-row gap-2 ">
-              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
+              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
                 <img src={Certificate_CSA} height='100' width="500"></img>
                 <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                   Certified System Administrator (CSA) from ServiceNow.
@@ -279,7 +288,7 @@ function App() {
                 
               </div>
 
-              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
+              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1   hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
               <img src={Certificate_CAD} height='100' width="500"></img>
                 <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Certified Application Developer (CAD) from ServiceNow.
@@ -288,7 +297,7 @@ function App() {
               </div>
               </div>
               <div className="mt-12 flex flex-col md:flex-row gap-2">
-              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
+              <div className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1  hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl" >
               <img src={Certificate_C} height='100' width="500"></img>
                 <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Programming Using C++ from Infosys Springboard.
@@ -297,7 +306,7 @@ function App() {
               </div>
 
 
-              <div  className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1 shadow-xl shadow-slate-400 hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl">
+              <div  className=" border-2 border-solid border-slate-800 p-3 rounded-xl m-1  hover:bg-slate-700 hover:text-slate-200 hover:shadow-none hover:text-2xl">
               <img src={Certificate_AMCAT} height='100' width="500"></img>
                 <p className=" text-stone-500 text-lg hover:text-slate-200 ">
                 Certificate of AMCAT.
