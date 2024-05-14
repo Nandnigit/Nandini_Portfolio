@@ -13,7 +13,7 @@ import Certificate_C from './assets/Nandini_C++.jpg';
 import Certificate_AMCAT from './assets/Nandini_AMCAT.jpg';
 import html from './assets/html_logo.png';
 import css from './assets/css-logo.png';
-import Bootstrap from './assets/bootstrap_logo.svg';
+import Bootstrap from './assets/bootstrap.png';
 import Tailwind from './assets/tailwind-css.webp';
 import reactlogo from './assets/react.png';
 import gitlogo from './assets/github.webp';
