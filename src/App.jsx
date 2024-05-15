@@ -104,9 +104,9 @@ function App() {
               </div>
             </div>
             <div >
-              <div className="  rounded-xl ">
+              {/* <div className="  rounded-xl ">
                 <img src={Porfile} className="relative z-10 w-[280px] m-auto sm:w-[600px]" id='profile_photo' />
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -334,7 +334,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <p><i className="fa-solid fa-phone p-1"></i>8755488541</p>
+                <p ><i className="fa-solid fa-phone p-1"></i>8755488541</p>
               </li>
               <li>
                 <p><i className="fa-solid fa-envelope p-1"></i>nandinigupta63696@gmail.com</p>
