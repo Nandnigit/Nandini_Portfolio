@@ -6,7 +6,7 @@ import Project3 from "./assets/Screenshot4.png";
 import Project4 from "./assets/img2.png";
 import Project5 from "./assets/img5.png";
 import ArrowDown from "./assets/arrow-down.svg";
-import resume from './assets/Nandini Gupta.pdf'
+import resume from './Nandini_Gupta.pdf';
 import Certificate_CSA from './assets/Nandini_CSA.jpg';
 import Certificate_CAD from './assets/Nandini_CAD.jpg';
 import Certificate_C from './assets/Nandini_C++.jpg';
