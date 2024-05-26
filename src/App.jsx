@@ -6,7 +6,7 @@ import Project3 from "./assets/Screenshot4.png";
 import Project4 from "./assets/img2.png";
 import Project5 from "./assets/img5.png";
 import ArrowDown from "./assets/arrow-down.svg";
-import resume from './Nandini_Gupta.pdf';
+import resume from './Nandini Gupta.pdf';
 import Certificate_CSA from './assets/Nandini_CSA.jpg';
 import Certificate_CAD from './assets/Nandini_CAD.jpg';
 import Certificate_C from './assets/Nandini_C++.jpg';
@@ -135,9 +135,9 @@ function App() {
               <div className="border border-gray-800 rounded-xl p-5 flex-1 hover:bg-slate-700 hover:text-slate-100 hover:text-lg" id='project_row1_second'>
                 <img src={Project4} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold m-4 ">
-                  Portfolio For Interior Designer
+                  Freelance Project
                 </h3>
-                <p className=" font-serif text-slate-300 mb-2 ">A portfolio is a collection of work samples, projects, or achievements that showcase an individual's skills, experience, and accomplishments. Portfolios are commonly used by professionals in various fields, including artists, designers, writers, photographers, programmers, and marketers, among others. </p>
+                <p className=" font-serif text-slate-300 mb-2 ">This is my first freelance project, a portfolio website for my client. A portfolio is a collection of work samples, projects, or achievements that showcase an individual's skills, experience, and accomplishments. Portfolios are commonly used by professionals in various fields, including artists, designers, writers, photographers, programmers, and marketers, among others. </p>
                 <div className=" flex gap-3 mt-2 ">
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">HTML/CSS</div>
                   <div className=" border-2 rounded-md px-2 py-1 shadow-lg shadow-slate-600">Bootstrap</div>
