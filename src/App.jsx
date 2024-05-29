@@ -14,12 +14,12 @@ import Certificate_AMCAT from './assets/Nandini_AMCAT.jpg';
 import html from './assets/html_logo.png';
 import css from './assets/css-logo.png';
 import Bootstrap from './assets/bootstrap.png';
-import Tailwind from './assets/tailwind-css.webp';
+import Tailwind from './assets/Tailwind_CSS_Logo.png';
 import reactlogo from './assets/react.png';
 import js from './assets/javascript.png';
-import gitlogo from './assets/github.webp';
+import gitlogo from './assets/github.png';
 import servicenow from './assets/ServiceNow.png';
-import salesforce from './assets/salesforce.webp';
+import salesforce from './assets/Salesforce.png';
 
 import { useEffect, useState } from "react";
 
@@ -55,22 +55,22 @@ function App() {
             <div>
               <ul className="flex gap-4">
                 <li>
-                  <a href="#projects" className="text-gray-300 hover:text-white hover:underline cursor-pointer">
+                  <a href="#projects" className="text-gray-300 hover:text-white hover:border-2 hover:rounded-xl hover:bg-slate-800 hover:px-2 hover:py-1 hover:border-slate-800 cursor-pointer">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#technologies" className="text-gray-300 hover:text-white hover:underline cursor-pointer">
+                  <a href="#technologies" className="text-gray-300 hover:text-white  cursor-pointer hover:border-2 hover:rounded-xl hover:bg-slate-800 hover:px-2 hover:py-1 hover:border-slate-800">
                     Technologies
                   </a>
                 </li>
                 <li>
-                  <a href="#aboutme" className="text-gray-300 hover:text-white hover:underline cursor-pointer">
+                  <a href="#aboutme" className="text-gray-300 hover:text-white  cursor-pointer hover:border-2 hover:rounded-xl hover:bg-slate-800 hover:px-2 hover:py-1 hover:border-slate-800">
                     Certificate
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="text-gray-300 hover:text-white hover:underline cursor-pointer">
+                  <a href="#contact" className="text-gray-300 hover:text-white hover:border-2 hover:rounded-xl hover:bg-slate-800 hover:px-2 hover:py-1 hover:border-slate-800 cursor-pointer">
                     Contact
                   </a>
                 </li>
@@ -119,7 +119,7 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-10 mt-11" >
             <div className="border border-gray-800 rounded-xl p-5 flex-1 hover:bg-slate-700 hover:text-slate-100 hover:text-lg" id='project_row1_first'>
                 <img src={Project5} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold m-4 ">
+                <h3 className="text-2xl font-semibold mt-4 ">
                   E-learning Website Design
                 </h3>
                 <p className=" font-serif text-slate-300 mb-2 ">
@@ -134,7 +134,7 @@ function App() {
               </div>
               <div className="border border-gray-800 rounded-xl p-5 flex-1 hover:bg-slate-700 hover:text-slate-100 hover:text-lg" id='project_row1_second'>
                 <img src={Project4} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold m-4 ">
+                <h3 className="text-2xl font-semibold mt-4 ">
                   Freelance Project
                 </h3>
                 <p className=" font-serif text-slate-300 mb-2 ">This is my first freelance project, a portfolio website for my client. A portfolio is a collection of work samples, projects, or achievements that showcase an individual's skills, experience, and accomplishments. Portfolios are commonly used by professionals in various fields, including artists, designers, writers, photographers, programmers, and marketers, among others. </p>
@@ -191,7 +191,7 @@ function App() {
                 <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
                   
                   <img src={html} height='80' width='80'></img>
-                  <h2 className="font-semibold">HTML</h2>
+                  <h2 className="font-semibold text-center">HTML</h2>
                 </div>
                 
                 </div>
@@ -200,7 +200,7 @@ function App() {
                  
                   
                   <img src={css} height='57' width='57'></img>
-                  <h2 className="font-semibold">CSS</h2>
+                  <h2 className="font-semibold text-center">CSS</h2>
                 </div>
               </div>
                
@@ -208,15 +208,15 @@ function App() {
                 <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200">
                   
                   <img src={Bootstrap} height='100' width='100'></img>
-                  <h2 className="font-semibold">Bootstrap</h2>
+                  <h2 className="font-semibold text-center">Bootstrap</h2>
                 </div>
               </div>
 
               <div className="mt-4">
                 <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
                   
-                  <img src={Tailwind} height='100' width='100'></img>
-                  <h2 className="font-semibold">Tailwind</h2>
+                  <img src={Tailwind} height='140' width='120'></img>
+                  <h2 className="font-semibold text-center">Tailwind</h2>
                 </div>
               </div>
 
@@ -224,7 +224,7 @@ function App() {
                 <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
                   
                   <img src={reactlogo} height='75' width='75'></img>
-                  <h2 className="font-semibold">React</h2>
+                  <h2 className="font-semibold text-center">React</h2>
                 </div>
               </div>
 
@@ -232,7 +232,7 @@ function App() {
                 <div className="flex flex-col justify-center  border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
                   {/* <h2 className="font-semibold">React</h2> */}
                   <img src={js} height='75' width='75'></img>
-                  <h2 className="font-semibold">Javascript</h2>
+                  <h2 className="font-semibold text-center">Javascript</h2>
                 </div>
               </div>
               </div>
@@ -253,19 +253,19 @@ function App() {
               <div>
                 <p className="font-bold flex flex-col justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-1 shadow-md shadow-slate-200 ">
                 <img src={gitlogo} height='60' width='60'></img>
-                <h2 className="font-semibold">GitHub</h2>
+                <h2 className="font-semibold text-center">GitHub</h2>
                 </p>
               </div>
               <div>
                 <p className="font-bold flex flex-col justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-3 shadow-md shadow-slate-200">
                 <img src={servicenow} height='70' width='80'></img>
-                <h2 className="font-semibold">ServiceNow</h2>
+                <h2 className="font-semibold text-center">ServiceNow</h2>
                 </p>
               </div>
               <div>
                 <p className="font-bold flex flex-col justify-center  md:left-5 border-2 border-solid border-slate-700 rounded-xl p-2 shadow-md shadow-slate-200">
-                <img src={salesforce} height='70' width='70'></img>
-                <h2 className="font-semibold">Salesforce</h2>
+                <img src={salesforce} height='90' width='90'></img>
+                <h2 className="font-semibold text-center">Salesforce</h2>
                 </p>
               </div>
               
