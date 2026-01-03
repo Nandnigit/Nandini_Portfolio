@@ -88,15 +88,15 @@ function App() {
             <div>
               <h2 className="font-bold text-4xl">Hello, I'm Nandini</h2>
               <div>
-                <h2 className="font-bold text-4xl mt-1 gradiant-text">Frontend Developer</h2>
+                <h2 className="font-bold text-4xl mt-1 gradiant-text">ServiceNow Developer</h2>
               </div>
               <div className='home_content'>
             
             </div>
               <div>
                 <p className="mt-4 text-gray-400">
-                  A self-assured, goal-oriented individual who is enthusiastic about invention and the application of fresh concepts. 
-                  In order to discover a solution that inspires me to continue my career as a frontend developer, I want to apply my knowledge to problems that actually exist in the world. 
+                  
+                  A result oriented servicenow developer with 2 years of hands-on experience in platform customization, configuration and administration. Specialist in UI builder, Flow designer, and scripting. I bridge the gap between complex business logic and intuitive user interfaces to make work flow better.
                 </p>
                 <button className="px-8 text-lg shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 hover:font-bold">
                   <a href={resume} target='_blank'>Download resume</a>  
